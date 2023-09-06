@@ -14,6 +14,7 @@ public class Input
         System.out.print("Enter your name:");
         Name =input.nextLine();
 
+
         System.out.print("Enter your Age:");
         Age = input.nextByte();
 

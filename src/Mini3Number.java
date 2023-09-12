@@ -14,16 +14,28 @@ public class Mini3Number {
         System.out.print("Enter the number C :");
         c = input.nextShort();
 
-        if(a<b && a<c)
+
+
+        if(a<b)
         {
-            System.out.println("A is mini");
-        }else if(b<a && a<c)
-        {
-            System.out.println("B is mini");
-        } else if (c<a && c<b)
-        {
-            System.out.println("C is mini");
+            if(a<c)
+            { System.out.println("A is mini ");
+            }
+            else{ System.out.println("C is mini");
+            }
         }
+        else
+        {
+            if(b<c)
+            {
+                System.out.println("B is mini");
+            }
+            else{
+                System.out.println("C is mini");
+            }
+
+        }
+
 
 
     }
